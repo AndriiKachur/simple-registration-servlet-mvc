@@ -63,7 +63,7 @@ public class CustomerDAO {
 					INSERT_BY_USERNAME);
 			preparedStatement.setString(1, customer.getUsername());
 			preparedStatement.setString(2, customer.getName());
-			preparedStatement.setString(3, customer.getUsername());
+			preparedStatement.setString(3, customer.getSurname());
 			preparedStatement.setString(4, customer.getSex());
 			preparedStatement.executeUpdate();
 		}
